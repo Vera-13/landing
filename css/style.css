@@ -1,0 +1,89 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Poppins:wght@700');
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.banner {
+  background-image: url("/landing/images/background.png");
+  background-size: cover;
+  color: white;
+  padding: 200px 200px ;
+  font-size: large;
+  }
+
+.btn-green {
+  display: inline-block;
+  background-color: rgba(38, 181, 38, 0.6);
+  color: white;
+  margin: 20px 20px;
+  padding: 20px 40px;
+  border-radius: 25px;
+}
+#works {
+  text-align: center;
+}
+
+.container {
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.card-product {
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 20px;
+  box-shadow: 0px 0px 5px lightgray;
+  width:220px;
+  height: 300px;
+  padding: 10px;
+  font-size: medium;
+  }
+
+  .card-product p {
+    color: darkgrey;
+    font-family: 'Raleway', sans-serif;
+    font-size: larger;
+  }
+
+  .footer {
+    background-color: #263238;
+    color: white;
+    padding: 60px;
+    font-size: medium;
+    font-family: 'Raleway', sans-serif;
+  }
+  .footer li {
+    display: inline-block;
+    padding: 10px;
+  }
+  .footer ul {
+    padding: 0;
+  }
+
+  .footer i{
+    color: green;
+    font-size: xx-large;
+  }
